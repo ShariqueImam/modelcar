@@ -21,13 +21,12 @@ const Purchase = () => {
     background-attachment: auto;
     height: ${width < 550 ? "20vh" : "40vh"};
     width: 100vw;
-    height: 110vh;
+    height: ${width < 500 ? "130vh" : "150vh"};
   `;
   return (
     <PurchaseBackground className={style.wrapper}>
       <h3 className={style.heading}>Поръчай своя персонализиран модел</h3>
       <PurchaseForm />
-      
     </PurchaseBackground>
   );
 };
