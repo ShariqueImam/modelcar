@@ -35,7 +35,7 @@ const Introduction = () => {
               ПОПЪЛНИ ФОРМАТА /не отнема повече от 7 минути/
             </p>
             <p className={style.leftPara2}>
-              КАЧИ СНИМКИ НА ТВОЯ ПЕРСОНАЛИЗИРАНИЯ МОДЕЛ
+            КАЧИ СНИМКИ НА СВОЯ ПЕРСОНАЛИЗИРАНИЯ МОДЕЛ
             </p>
           </section>
           <section className={style.centerDiagram}>
@@ -51,7 +51,7 @@ const Introduction = () => {
           <section className={style.content2}>
             {" "}
             <p className={style.rightPara1}>
-              ПОПЪЛНИ ДЕТАЙЛИ ЗА ТВОЯ ПЕРСОНАЛИЗИРАН МОДЕЛ
+            ПОПЪЛНИ ДЕТАЙЛИ ЗА СВОЯ ПЕРСОНАЛИЗИРАН МОДЕЛ
             </p>
             <p className={style.rightPara2}>
             ЗАВЪРШИ ПОРЪЧКАТА
