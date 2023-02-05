@@ -1,6 +1,8 @@
 import "../styles/globals.css";
 import React from "react";
 import Cookies from "js-cookie";
+import HttpsRedirect from "react-https-redirect";
+
 import Pixel from "../components/Pixel";
 function MyApp({ Component, pageProps }) {
   Cookies.set("car", "cars");
@@ -9,10 +11,15 @@ function MyApp({ Component, pageProps }) {
   Cookies.set("purchase", "website for purchasing the products releted to car");
 
   return (
-    <div className="overflow-x-hidden" style={{ fontFamily: "Poppins,serif" }}>
-      <Pixel name="FACEBOOK_PIXEL_1" />
-      <Component {...pageProps} />
-    </div>
+    <HttpsRedirect>
+      <div
+        className="overflow-x-hidden"
+        style={{ fontFamily: "Poppins,serif" }}
+      >
+        <Pixel name="FACEBOOK_PIXEL_1" />
+        <Component {...pageProps} />
+      </div>
+    </HttpsRedirect>
   );
 }
 
