@@ -19,12 +19,12 @@ const MobileAppInfo = () => {
   return (
     <div className={style.wrapper}>
       <section className="flex flex-col items-center w-[19%]">
-        <p className="h-[4vh] border-[1px] border-[#0647D4]"></p>
+        {/* <p className="h-[4vh] border-[1px] border-[#0647D4]"></p> */}
       </section>
-      <p className={style.heading}>MyModelRide</p>{" "}
+      {/* <p className={style.heading}>MyModelRide</p>{" "} */}
       <div className="flex">
         {/* adding the icons of the introduction */}
-        <section className={style.centerDiagram}>
+        {/* <section className={style.centerDiagram}>
           <BsBoxSeam className={style.icon} />
           <p className="h-[10vh] border-[1px] border-[#0647D4]"></p>
           <AiFillApple className={style.icon} />
@@ -32,7 +32,7 @@ const MobileAppInfo = () => {
           <p className="h-[6vh] border-[1px] border-[#0647D4]"></p>
           <GiCycle className={style.icon} />
           <p className="h-[14vh] border-[1px] border-[#0647D4]"></p>
-        </section>
+        </section> */}
         {/* adding the content of the introduction */}
         <section className={style.content}>
           {/* <p className={style.leftPara1}>
@@ -67,7 +67,7 @@ const MobileAppInfo = () => {
         <button className={style.btn}>КЪМ БЛОГА</button>{" "}
       </Link>
       <section className="flex flex-col w-[19%] items-center">
-        <p className="h-[3vh] border-[1px] border-[#0647D4]"></p>
+        {/* <p className="h-[3vh] border-[1px] border-[#0647D4]"></p> */}
       </section>
     </div>
   );
