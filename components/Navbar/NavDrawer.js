@@ -59,7 +59,7 @@ const NavDrawer = (props) => {
           <ul className="flex  flex-col">
             <Link href="/" className="text-center">
               <li className={style.list} onClick={() => props.onScroll("home")}>
-                НАЧАЛОС
+              НАЧАЛО
               </li>
             </Link>
             <Link href="/purchase">
@@ -67,7 +67,7 @@ const NavDrawer = (props) => {
                 className={style.list}
                 onClick={() => props.onScroll("about")}
               >
-                ЗА НАСС
+               ЗА НАС
               </li>{" "}
             </Link>
 
